@@ -12,3 +12,21 @@
   box-shadow: 0.05em 0.05em 0.05em  rgba(65, 63, 62, 0.2) ;
   }
 
+@media (max-width: 470px) {
+
+    .HourlyForecast {
+  background-color: rgba(249, 249, 250, 0.366);
+  color: gray;
+  text-align: center;
+  width: 5em;
+  padding: 0.8em;
+  border-radius: 0.8em;
+  font-size: 0.7em;
+  margin-right: 0.9em;
+  float: none;
+  display: inline-block;
+  box-shadow: 0.05em 0.05em 0.05em  rgba(65, 63, 62, 0.2) ;
+  }
+
+
+}

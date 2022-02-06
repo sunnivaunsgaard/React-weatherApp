@@ -9,8 +9,17 @@
     font-size: 0.9em;
     border: 1px solid transparent;
     color: gray;
-
     
+}
 
+@media (max-width: 470px) {
+
+.OptionalLocations button{
+    background-color: transparent;
+    font-size: 0.7em;
+    border: 1px solid transparent;
+    color: gray;
     
+}
+
 }
