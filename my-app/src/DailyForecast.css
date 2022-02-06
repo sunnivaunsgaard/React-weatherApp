@@ -59,3 +59,51 @@ font-size: 0.6em;
     padding: 0.5em;
     color: gray;
 }
+
+@media (max-width: 470px) {
+
+.DailyForecast {
+display: flex;
+padding-bottom: 1.5em;
+width:100%;
+}
+
+.box1 {
+  width: 100%;
+  height: 3em;
+  padding:1.8em;
+  color:rgb(65, 63, 62);
+  
+}
+
+
+ #tomorrow{
+text-align: center;
+color: rgb(133, 133, 132);
+font-size: 1em;
+}
+
+.child-box {
+ text-align: center;
+ font-size: 2em;
+}
+
+
+.info-max-min {
+    font-size: 1em;
+    padding-top: 5em;
+    padding-bottom: 1em;
+    padding-right: 2em;
+    color: gray;
+    text-align: center;
+}
+
+.info-percieved, .info-humidity, .info-wind {
+    font-size: 0.6em;
+    text-align: center;
+    color: gray;
+    padding-right: 3em;
+}
+
+
+}

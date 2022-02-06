@@ -52,7 +52,7 @@ function App() {
             </div>
 
             <div className="col-2 extra-values">
-              <span id="date-today"> 07.02.22 </span>
+              <span id="date-today"> 07.02</span>
               <div className="apparent-description pt-3">
                 <span className="col">
                   <span id="max">
@@ -67,7 +67,7 @@ function App() {
                 °<div className="space pt-1"></div>
                 <span className="col" id="humidity"></span> 25<span>%</span>
                 <div className="space pt-1"></div>
-                <span className="col" id="wind"></span>15 <span>km/h</span>
+                <span className="col" id="wind"></span>15 <span>m/s</span>
               </div>
             </div>
           </div>
