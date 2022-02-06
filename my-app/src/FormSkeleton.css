@@ -1,0 +1,22 @@
+#type-city {
+  text-align: center;
+  width: 70%;
+  display: inline-block;
+}
+
+.FormSkeleton h1 {
+    text-align: center;
+    padding: 100px 20px 30px 20px;
+    color: rgba(120, 171, 247, 0.8);
+    font-size: 40px;
+    font-family: 'Poiret One', Verdana;
+}
+
+.CitySubmit {
+  position: relative;
+  bottom: 0.1em;
+}
+
+.CitySubmit input {
+  width: 30%;
+}

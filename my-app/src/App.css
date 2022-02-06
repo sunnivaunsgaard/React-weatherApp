@@ -1,7 +1,26 @@
+form {
+   margin-left:auto;
+   margin-right:auto;
+   width:80%;
+   
+}
 
-.AppSkeleton h1 {
-    padding: 200px 0px 30px 180px;
-    color: rgba(120, 171, 247, 0.8);
-    font-size: 50px;
+.ActualInformation {
+
+   padding-top: 1em;
+   display: block;
+   margin:0 auto;
+   width: 79%;
+}
+
+.extra-values {
+   text-align: right;
+}
+
+.hourly-title {
+    padding-top: 10px;
+    font-size: 15px;
+    padding-bottom: none;
+    margin: 3px;
     font-family: 'Poiret One', Verdana;
 }

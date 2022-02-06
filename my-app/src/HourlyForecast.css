@@ -1,0 +1,17 @@
+.hourly-title {
+    padding-top: 10px;
+    font-size: 15px;
+    padding-bottom: none;
+    margin: 3px;
+    font-family: 'Poiret One', Verdana;
+}
+
+.scrolling-wrapper {
+margin: 4px, 4px;
+padding-left: 5px;
+width: 460px;
+height: 75px;
+overflow-x: scroll;
+overflow-y: hidden;
+white-space: nowrap;
+ }
