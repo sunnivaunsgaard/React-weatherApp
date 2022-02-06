@@ -7,15 +7,11 @@ export default function DailyForecast () {
       <div className="DailyForecast">
         <div className="scroll-bar" id="scroll-daily-forecast">
           <div className="box1">
-            <span id="tomorrow">TOMORROW</span>
+            <div id="tomorrow"> TOMORROW </div>
             <div className="child-box">
-              {" "}
               4°
               <span>
-                {" "}
-                <i className="wi wi-day-sunny" id="first-icon">
-                  {" "}
-                </i>
+                <i className="wi wi-day-sunny" id="first-icon"></i>
               </span>
             </div>
           </div>

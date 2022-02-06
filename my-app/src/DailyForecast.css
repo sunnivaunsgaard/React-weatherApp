@@ -2,9 +2,15 @@ ul {
     list-style: none;
 }
 
+.DailyForecast {
+display: inline-flex;
+padding-bottom: 1.5em;
+width:20%;
+}
+
 .scroll-bar {  
   width: 100%;
-  height: 5em;
+  height: 5.5em;
   overflow-x: hidden;
   overflow-y: auto;
   text-align: center;
@@ -13,41 +19,12 @@ ul {
 
 
 .box1 {
-  display: block;
-  margin:0 auto;
-  background-color: rgba(170, 213, 241, 0.1);
   width: 100%;
-  height: 2em;
-  padding:1.5em;
+  height: 3em;
+  padding:1.8em;
   color:rgb(65, 63, 62);
-  border-radius: 1.5em;
-  box-shadow: 0em 0.2em 0em rgba(97, 96, 95, 0.2) ;
+  
 }
-
-.box1:hover {
-  border: 0.07em solid rgba(120, 208, 252, 0.3);
-  background-color: rgba(170, 213, 241, 0.1);
-}
-
-.box1:hover .child-box{
-    text-align: center;
-    font-size: 1.8em;
-    font-weight: bold;
-    color: rgb(133, 133, 132);
-    font-weight: lighter;
-    position: relative;
-    bottom: 2em;
-    position: relative;
-    bottom:1.5em;
-}
-
-.box1:hover #tomorrow {
-    font-size: 0em;
-    color:transparent;
-    padding:0px;
-    margin:0px;
-}
-
 
 #first-icon  {
     color: rgb(133, 133, 132);
@@ -56,32 +33,29 @@ ul {
 
 
  #tomorrow{
+text-align: center;
 color: rgb(133, 133, 132);
-font-size: 1.7em;
-position: relative;
-bottom:0.7em;
+font-size: 0.6em;
 }
-   
 
-
-.child-box{
-    text-align: center;
-    font-size: 0em;
-    color: transparent;
+.child-box {
+ text-align: center;
+ font-size: 1em;
 }
 
 
 .info-max-min {
-    font-size: 1em;
-    padding-top: 2em;
+    font-size: 0.7em;
+    padding-top: 2.5em;
     padding-bottom: 0.5em;
-    text-align: center;
+    padding-left: 0.5em;
     color: gray;
+    text-align: left;
 }
 
 .info-percieved, .info-humidity, .info-wind {
-    font-size: 0.8em;
-    text-align: center;
+    font-size: 0.6em;
+    text-align: left;
     padding: 0.5em;
     color: gray;
 }

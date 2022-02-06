@@ -103,7 +103,7 @@ function App() {
       <div className="coded-by">
         <p>
           <a
-            href="https://github.com/sunnivaunsgaard/weatherAppGit"
+            href="https://github.com/sunnivaunsgaard/React-weatherApp"
             target="_blank"
           >
             open-source code
