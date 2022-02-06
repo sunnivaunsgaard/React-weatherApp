@@ -6,6 +6,7 @@
 
 .FormSkeleton h1 {
     text-align: center;
+    font-weight: bold;
     padding: 100px 20px 30px 20px;
     color: rgba(120, 171, 247, 0.8);
     font-size: 40px;

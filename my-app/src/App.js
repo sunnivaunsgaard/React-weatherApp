@@ -18,25 +18,24 @@ function App() {
             <div className="col-8 first-collumn">
               <div className="col default-chosen-city">
                 <div id="weather-description"> Overcast Clouds</div>
-                <span id="current-city" className="current-city">
-                  {" "}
+                <div id="current-city" className="current-city">
                   Trondheim
-                </span>
+                </div>
               </div>
               <div className="col">
-                <span id="degrees-city"> 0 </span>
-                <span className="degrees">
-                  <a href="#" id="celcius" className=" f-c-change">
-                    °C
-                  </a>
-                  |
-                  <a href="#" id="fahrenheit">
-                    °F
-                  </a>
-                </span>
-                <i className="wi wi-day-cloudy" id="main-icon">
-                  {" "}
-                </i>
+                <div className="degree-and-icon">
+                  <span id="degrees-city"> 0 </span>
+                  <span className="degrees">
+                    <a href="#" id="celcius" className=" f-c-change">
+                      °C
+                    </a>
+                    |
+                    <a href="#" id="fahrenheit">
+                      °F
+                    </a>
+                  </span>
+                  <i className="wi wi-day-cloudy" id="main-icon"></i>
+                </div>
               </div>
             </div>
 
@@ -57,13 +56,15 @@ function App() {
               <div className="apparent-description pt-3">
                 <span className="col">
                   <span id="max">
-                    <strong>2 </strong>
+                    <strong>2</strong>
                   </span>
-                  ° <span id="min"></span> - 3°
+                  °/<span id="min"></span>-3°
                 </span>
                 <div className="space pt-1"></div>
-                <span className="col" id="percieved">- 1</span>°
-                <div className="space pt-1"></div>
+                <span className="col" id="percieved">
+                  - 1
+                </span>
+                °<div className="space pt-1"></div>
                 <span className="col" id="humidity"></span> 25<span>%</span>
                 <div className="space pt-1"></div>
                 <span className="col" id="wind"></span>15 <span>km/h</span>
@@ -90,15 +91,26 @@ function App() {
           <HourlyForecast />
           <HourlyForecast />
         </div>
-
-        <span>
+        <div className="forecast-boxes">
           <DailyForecast />
           <DailyForecast />
           <DailyForecast />
           <DailyForecast />
           <DailyForecast />
-        </span>
+        </div>
       </form>
+
+      <div className="coded-by">
+        <p>
+          <a
+            href="https://github.com/sunnivaunsgaard/weatherAppGit"
+            target="_blank"
+          >
+            open-source code
+          </a>
+          , Coded by Sunniva Unsgård
+        </p>
+      </div>
     </div>
   );
 }

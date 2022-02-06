@@ -1,9 +1,11 @@
  .HourlyForecast {
-  background-color: rgba(218, 234, 245, 0.366);
+  background-color: rgba(249, 249, 250, 0.366);
+  color: gray;
+  text-align: center;
   width: 5em;
-  padding: 0.5em;
+  padding: 0.8em;
   border-radius: 0.8em;
-  font-size: 1em;
+  font-size: 0.8em;
   margin-right: 0.9em;
   float: none;
   display: inline-block;

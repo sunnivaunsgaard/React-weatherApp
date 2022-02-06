@@ -1,1 +1,87 @@
+ul {
+    list-style: none;
+}
 
+.scroll-bar {  
+  width: 100%;
+  height: 5em;
+  overflow-x: hidden;
+  overflow-y: auto;
+  text-align: center;
+  grid-area: "scroll-bar-div";
+}
+
+
+.box1 {
+  display: block;
+  margin:0 auto;
+  background-color: rgba(170, 213, 241, 0.1);
+  width: 100%;
+  height: 2em;
+  padding:1.5em;
+  color:rgb(65, 63, 62);
+  border-radius: 1.5em;
+  box-shadow: 0em 0.2em 0em rgba(97, 96, 95, 0.2) ;
+}
+
+.box1:hover {
+  border: 0.07em solid rgba(120, 208, 252, 0.3);
+  background-color: rgba(170, 213, 241, 0.1);
+}
+
+.box1:hover .child-box{
+    text-align: center;
+    font-size: 1.8em;
+    font-weight: bold;
+    color: rgb(133, 133, 132);
+    font-weight: lighter;
+    position: relative;
+    bottom: 2em;
+    position: relative;
+    bottom:1.5em;
+}
+
+.box1:hover #tomorrow {
+    font-size: 0em;
+    color:transparent;
+    padding:0px;
+    margin:0px;
+}
+
+
+#first-icon  {
+    color: rgb(133, 133, 132);
+    font-weight: lighter;
+}
+
+
+ #tomorrow{
+color: rgb(133, 133, 132);
+font-size: 1.7em;
+position: relative;
+bottom:0.7em;
+}
+   
+
+
+.child-box{
+    text-align: center;
+    font-size: 0em;
+    color: transparent;
+}
+
+
+.info-max-min {
+    font-size: 1em;
+    padding-top: 2em;
+    padding-bottom: 0.5em;
+    text-align: center;
+    color: gray;
+}
+
+.info-percieved, .info-humidity, .info-wind {
+    font-size: 0.8em;
+    text-align: center;
+    padding: 0.5em;
+    color: gray;
+}
