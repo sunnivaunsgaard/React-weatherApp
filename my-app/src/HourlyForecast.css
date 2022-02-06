@@ -1,17 +1,12 @@
-.hourly-title {
-    padding-top: 10px;
-    font-size: 15px;
-    padding-bottom: none;
-    margin: 3px;
-    font-family: 'Poiret One', Verdana;
-}
+ .HourlyForecast {
+  background-color: rgba(218, 234, 245, 0.366);
+  width: 5em;
+  padding: 0.5em;
+  border-radius: 0.8em;
+  font-size: 1em;
+  margin-right: 0.9em;
+  float: none;
+  display: inline-block;
+  box-shadow: 0.05em 0.05em 0.05em  rgba(65, 63, 62, 0.2) ;
+  }
 
-.scrolling-wrapper {
-margin: 4px, 4px;
-padding-left: 5px;
-width: 460px;
-height: 75px;
-overflow-x: scroll;
-overflow-y: hidden;
-white-space: nowrap;
- }

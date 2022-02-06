@@ -4,6 +4,7 @@ import ButtonAurora from "./ButtonAurora";
 import FormSkeleton from "./FormSkeleton";
 import OptionalLocations from "./OptionalLocations";
 import HourlyForecast from "./HourlyForecast";
+import DailyForecast from "./DailyForecast";
 
 function App() {
   return (
@@ -24,14 +25,12 @@ function App() {
               </div>
               <div className="col">
                 <span id="degrees-city"> 0 </span>
-                <span className="f-c">
-                  <a href="#" id="celcius">
-                    {" "}
-                    °C{" "}
-                  </a>{" "}
+                <span className="degrees">
+                  <a href="#" id="celcius" className=" f-c-change">
+                    °C
+                  </a>
                   |
                   <a href="#" id="fahrenheit">
-                    {" "}
                     °F
                   </a>
                 </span>
@@ -43,45 +42,61 @@ function App() {
 
             <div className="col-2 extra-description">
               <span className="time"> Time:</span>
-              <div className="apparent-description">
-                <div className="col">
-                  <strong>Max </strong>Min:{" "}
+              <div className="apparent-description pt-3">
+                <div className="col pb-1">
+                  <strong>Max/</strong>Min:
                 </div>
-                <div className="col">Percieved:</div>
-                <div className="col">Humidity:</div>
-                <div className="col">Wind:</div>
+                <div className="col pb-1">Percieved:</div>
+                <div className="col pb-1">Humidity:</div>
+                <div className="col pb-1">Wind:</div>
               </div>
             </div>
 
             <div className="col-2 extra-values">
-              <span id="date-today"> 7.2.2022 </span>
-              <div className="apparent-description">
+              <span id="date-today"> 07.02.22 </span>
+              <div className="apparent-description pt-3">
                 <span className="col">
-                  {" "}
                   <span id="max">
-                    <strong>2</strong>
+                    <strong>2 </strong>
                   </span>
-                  ° <span id="min">-3</span>°
+                  ° <span id="min"></span> - 3°
                 </span>
-                <div class="space"></div>
-                <span class="col" id="percieved">
-                  {" "}
-                </span>{" "}
-                °<div className="space"></div>
-                <span className="col" id="humidity"></span> <span>%</span>
-                <div className="space"></div>
-                <span className="col" id="wind"></span> <span>km/h</span>
+                <div className="space pt-1"></div>
+                <span className="col" id="percieved">- 1</span>°
+                <div className="space pt-1"></div>
+                <span className="col" id="humidity"></span> 25<span>%</span>
+                <div className="space pt-1"></div>
+                <span className="col" id="wind"></span>15 <span>km/h</span>
               </div>
             </div>
           </div>
         </div>
-        <div class="hourly-title">Hourly Forecast</div>
+        <div className="hourly-title">Hourly Forecast</div>
+        <div className="scrolling-wrapper">
+          <HourlyForecast />
+          <HourlyForecast />
+          <HourlyForecast />
+          <HourlyForecast />
+          <HourlyForecast />
+          <HourlyForecast />
+          <HourlyForecast />
+          <HourlyForecast />
+          <HourlyForecast />
+          <HourlyForecast />
+          <HourlyForecast />
+          <HourlyForecast />
+          <HourlyForecast />
+          <HourlyForecast />
+          <HourlyForecast />
+          <HourlyForecast />
+        </div>
+
         <span>
-          <HourlyForecast />
-          <HourlyForecast />
-          <HourlyForecast />
-          <HourlyForecast />
-          <HourlyForecast />
+          <DailyForecast />
+          <DailyForecast />
+          <DailyForecast />
+          <DailyForecast />
+          <DailyForecast />
         </span>
       </form>
     </div>

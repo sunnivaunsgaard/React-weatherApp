@@ -3,7 +3,7 @@ import "./FormSkeleton.css";
 
 export default function FormSkeleton() {
   return (
-    <form className="FormSkeleton">
+    <div className="FormSkeleton">
       <h1>Weather Forecast</h1>
       <input
         type="search"
@@ -19,6 +19,6 @@ export default function FormSkeleton() {
           className="btn btn-outline-secondary"
         />
       </span>
-    </form>
+    </div>
   );
 }

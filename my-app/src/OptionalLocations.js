@@ -3,7 +3,7 @@ import "./OptionalLocations.css";
 
 export default function OptionalLocations() {
   return (
-    <div className="OptionalLocations d-flex justify-content-between pt-3">
+    <div className="OptionalLocations d-flex justify-content-between pt-3 pb-4">
       <span>
         <button className="YourLocation"> Your location </button>
       </span>
